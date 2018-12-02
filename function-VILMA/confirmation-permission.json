@@ -1,0 +1,98 @@
+﻿{
+  "responseId": "81695068-68c2-4924-9424-f3aa4bbe0edd",
+  "queryResult": {
+    "queryText": "actions_intent_PERMISSION",
+    "parameters": {
+    },
+    "allRequiredParamsPresent": true,
+    "fulfillmentText": "Have a great time!",
+    "fulfillmentMessages": [{
+      "text": {
+        "text": ["Have a great time!"]
+      }
+    }],
+    "outputContexts": [{
+      "name": "projects/bot-shelly/agent/sessions/ABwppHG3sky_nBHzgJnHPCLWNNsUlnt6WBaXTit3Z8Hjad7RMmWfyDPknC8Dg66DSPn7in3NzQTygg/contexts/actions_capability_screen_output"
+    }, {
+      "name": "projects/bot-shelly/agent/sessions/ABwppHG3sky_nBHzgJnHPCLWNNsUlnt6WBaXTit3Z8Hjad7RMmWfyDPknC8Dg66DSPn7in3NzQTygg/contexts/actions_intent_permission",
+      "parameters": {
+        "PERMISSION": true,
+        "UPDATES_USER_ID": "ABwppHF4u6cIwzn1irjnRy6g3Qq6sZ0cwzPyNzl8dS9Ea9ztEwHuZqxs7WZoUJ8ZabvtGkYsHPCFZQ",
+        "text": "yes"
+      }
+    }, {
+      "name": "projects/bot-shelly/agent/sessions/ABwppHG3sky_nBHzgJnHPCLWNNsUlnt6WBaXTit3Z8Hjad7RMmWfyDPknC8Dg66DSPn7in3NzQTygg/contexts/actions_capability_audio_output"
+    }, {
+      "name": "projects/bot-shelly/agent/sessions/ABwppHG3sky_nBHzgJnHPCLWNNsUlnt6WBaXTit3Z8Hjad7RMmWfyDPknC8Dg66DSPn7in3NzQTygg/contexts/google_assistant_input_type_keyboard"
+    }, {
+      "name": "projects/bot-shelly/agent/sessions/ABwppHG3sky_nBHzgJnHPCLWNNsUlnt6WBaXTit3Z8Hjad7RMmWfyDPknC8Dg66DSPn7in3NzQTygg/contexts/actions_capability_media_response_audio"
+    }, {
+      "name": "projects/bot-shelly/agent/sessions/ABwppHG3sky_nBHzgJnHPCLWNNsUlnt6WBaXTit3Z8Hjad7RMmWfyDPknC8Dg66DSPn7in3NzQTygg/contexts/actions_capability_web_browser"
+    }],
+    "intent": {
+      "name": "projects/bot-shelly/agent/intents/eb8b54bb-16c0-4d3d-bde7-c0ca2582aca1",
+      "displayName": "finish_push_setup"
+    },
+    "intentDetectionConfidence": 1.0,
+    "languageCode": "en-us"
+  },
+  "originalDetectIntentRequest": {
+    "source": "google",
+    "version": "2",
+    "payload": {
+      "isInSandbox": true,
+      "surface": {
+        "capabilities": [{
+          "name": "actions.capability.AUDIO_OUTPUT"
+        }, {
+          "name": "actions.capability.SCREEN_OUTPUT"
+        }, {
+          "name": "actions.capability.WEB_BROWSER"
+        }, {
+          "name": "actions.capability.MEDIA_RESPONSE_AUDIO"
+        }]
+      },
+      "requestType": "SIMULATOR",
+      "inputs": [{
+        "rawInputs": [{
+          "query": "yes",
+          "inputType": "KEYBOARD"
+        }],
+        "arguments": [{
+          "textValue": "true",
+          "name": "PERMISSION",
+          "boolValue": true
+        }, {
+          "rawText": "yes",
+          "textValue": "yes",
+          "name": "text"
+        }, {
+          "textValue": "ABwppHF4u6cIwzn1irjnRy6g3Qq6sZ0cwzPyNzl8dS9Ea9ztEwHuZqxs7WZoUJ8ZabvtGkYsHPCFZQ",
+          "name": "UPDATES_USER_ID"
+        }],
+        "intent": "actions.intent.PERMISSION"
+      }],
+      "user": {
+        "lastSeen": "2018-11-23T01:17:55Z",
+        "permissions": ["UPDATE"],
+        "locale": "en-US",
+        "userId": "ABwppHF2MjX6TJF7Mcqs4lzBj-ZYYoAuuudutf6RWK4iEcjScXxPZ1TO7f6hYpea0BIhmewjQKqYIQ"
+      },
+      "conversation": {
+        "conversationId": "ABwppHG3sky_nBHzgJnHPCLWNNsUlnt6WBaXTit3Z8Hjad7RMmWfyDPknC8Dg66DSPn7in3NzQTygg",
+        "type": "ACTIVE",
+        "conversationToken": "[]"
+      },
+      "availableSurfaces": [{
+        "capabilities": [{
+          "name": "actions.capability.AUDIO_OUTPUT"
+        }, {
+          "name": "actions.capability.SCREEN_OUTPUT"
+        }, {
+          "name": "actions.capability.WEB_BROWSER"
+        }]
+      }]
+    }
+  },
+  "session": "projects/bot-shelly/agent/sessions/ABwppHG3sky_nBHzgJnHPCLWNNsUlnt6WBaXTit3Z8Hjad7RMmWfyDPknC8Dg66DSPn7in3NzQTygg"
+}
