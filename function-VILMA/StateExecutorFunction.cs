@@ -14,7 +14,8 @@ namespace function_shelly4azqueue
     public static class StateExecutorFunction
     {
         [FunctionName("StateExecutorFunction")]
-        public static async Task Run([QueueTrigger("changevmstate")]string myQueueItem, ILogger log, ExecutionContext context)
+        public static async Task Run([QueueTrigger("changevmstate")]string myQueueItem, ILogger log, 
+            ExecutionContext context)
         {
             var config = new ConfigurationBuilder()
                 .SetBasePath(context.FunctionAppDirectory)
